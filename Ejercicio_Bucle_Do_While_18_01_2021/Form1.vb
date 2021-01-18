@@ -7,10 +7,6 @@
         Next
     End Sub
 
-
-
-
-
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim CONTADOR As Integer = 0
         Dim SUMA As Integer = 0
@@ -31,9 +27,6 @@
         MessageBox.Show("Este número se ha sumado a si mismo " & CStr(CONTADOR1) & " veces antes de llegar a 500", "Atención")
     End Sub
 
-
-
-
     Private Sub TextBox1_Click(sender As Object, e As EventArgs) Handles TextBox1.Click
         TextBox1.Text = ""
     End Sub
@@ -42,7 +35,6 @@
     Private Sub TextBox2_Click(sender As Object, e As EventArgs) Handles TextBox2.Click
         TextBox2.Text = ""
     End Sub
-
 
     Private Sub TextBox3_Click(sender As Object, e As EventArgs) Handles TextBox3.Click
         TextBox3.Text = ""
